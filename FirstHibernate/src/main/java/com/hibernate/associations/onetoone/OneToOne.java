@@ -1,7 +1,6 @@
 package com.hibernate.associations.onetoone;
 
 import org.hibernate.Session;
-
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.boot.Metadata;
