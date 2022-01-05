@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+	<session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://127.0.0.1:3306/Associations</property>
+		<property name="connection.username">admin</property>
+		<property name="connection.password">admin</property>
+		<property name="hbm2ddl.auto">update</property>
+		<property name="show_sql">true</property>
+		<property name="hibernate.format_sql">true</property>
+
+	<!-- <mapping class="com.inheritance.mapping.annotations.Employee"/>
+	<mapping class="com.inheritance.mapping.annotations.ContractEmployee"/>
+	<mapping class="com.inheritance.mapping.annotations.RegularEmployee"/> -->
+	
+	<!-- <mapping resource="employeeTPC.hbm.xml"/> -->
+	
+	<!-- <mapping class="com.inheritance.mapping.annotations.tpc.Employee"/>
+	<mapping class="com.inheritance.mapping.annotations.tpc.RegularEmployee"/>
+	<mapping class="com.inheritance.mapping.annotations.tpc.ContractEmployee"/> -->
+	
+	<!-- <mapping resource="employeeTPSC.hbm.xml"/> -->
+	
+	<!-- <mapping class ="com.inheritance.mapping.annotations.tpsc.Employee"/>
+	<mapping class ="com.inheritance.mapping.annotations.tpsc.RegularEmployee"/>
+	<mapping class ="com.inheritance.mapping.annotations.tpsc.ContractEmployee"/> -->
+	
+	
+	<!-- <mapping class="com.hibernate.associations.onetoone.Question"/>
+	<mapping class="com.hibernate.associations.onetoone.Answer"/> -->
+	
+	<!-- <mapping class="com.hibernate.associations.onetomany.Question"/>
+	<mapping class="com.hibernate.associations.onetomany.Answers"/> -->
+	
+		<!-- <mapping class="com.hibernate.associations.manytomany.Employee"/>
+	<mapping class="com.hibernate.associations.manytomany.Projects"/> -->
+	
+	<!-- <mapping resource="EmployeeOTO.hbm.xml"/>
+	<mapping resource="Address.hbm.xml"/> -->
+	
+	<mapping resource="questionsNanswers.hbm.xml"/>
+	
+	
+
+	</session-factory>
+</hibernate-configuration>  

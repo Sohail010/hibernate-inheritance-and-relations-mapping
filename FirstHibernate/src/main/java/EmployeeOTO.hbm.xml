@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hibernate.associations.xml.onetoone.Employee"
+		table="emp_oto">
+		<id name="employeeId">
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" column="emp_name"></property>
+		<property name="email" column="emp_email"></property>
+		<one-to-one name="address" cascade="all"></one-to-one>  
+	</class>
+
+</hibernate-mapping>

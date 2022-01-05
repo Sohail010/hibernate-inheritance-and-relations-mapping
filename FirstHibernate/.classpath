@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/byte-buddy-1.8.12.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/geolatte-geom-1.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-c3p0-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-commons-annotations-5.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-core-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-envers-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-jpamodelgen-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-osgi-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-proxool-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/hibernate-spatial-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/jandex-2.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/javassist-3.22.0-GA.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/javax.interceptor-api-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/jts-core-1.14.0.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/org.osgi.compendium-4.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/org.osgi.core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/postgresql-42.2.2.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernatejar/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/byte-buddy-1.8.0.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/classmate-1.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/hibernate-commons-annotations-5.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/hibernate-core-5.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/jandex-2.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/javassist-3.22.0-GA.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="F:/college/SE/Hibernate/FirstHibernateExample/hibernate-release-5.3.0.Final/lib/required/jboss-transaction-api_1.2_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.inheritance.mapping.tpc.Employee"
+		table="emp_tpc">
+		<id name="id">
+			<generator class="increment">
+			</generator>
+		</id>
+		<property name="name"></property>
+		<union-subclass
+			name="com.inheritance.mapping.tpc.RegularEmployee"
+			table="emp_tpc_regular_employee">
+			<property name="salary"></property>
+			<property name="bonus"></property>
+
+		</union-subclass>
+		<union-subclass
+			name="com.inheritance.mapping.tpc.ContractEmployee"
+			table="emp_tpc_contract_employee">
+			<property name="payPerHour"></property>
+			<property name="contractPeriod"></property>
+		</union-subclass>
+	</class>
+</hibernate-mapping>
